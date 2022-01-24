@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Button_Server" type="Button" parent="."]
+margin_left = 12.0
+margin_top = 16.0
+margin_right = 571.0
+margin_bottom = 78.0
+text = "Server"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_Client" type="Button" parent="."]
+margin_left = 10.0
+margin_top = 94.0
+margin_right = 569.0
+margin_bottom = 158.0
+text = "Client"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 23.0
+margin_top = 210.0
+margin_right = 571.0
+margin_bottom = 422.0
+text = "TEST PANEL"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
